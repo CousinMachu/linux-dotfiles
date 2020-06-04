@@ -1,0 +1,130 @@
+sw_volume: 100
+audio_device_state:1:MPD Pulse Output
+audio_device_state:1:my_fifo
+state: pause
+current: 27
+time: 192.440000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Medasin/Irene/01 Weird Summer.flac
+1:Medasin/Irene/02 Ramen.flac
+2:Medasin/Irene/03 Leaving Earth 2.flac
+3:Medasin/Irene/04 Warm Blue.flac
+4:Medasin/Irene/05 Slinky Man.flac
+5:Medasin/Irene/06 Work For You (feat. Kaz Moon).flac
+6:Medasin/Irene/07 Home.flac
+7:Medasin/Irene/08 Tired (feat. Sophie Meiers).flac
+8:Medasin/Irene/09 Fin.flac
+9:Medasin/RIPPLS/01 Launch Console.flac
+10:Medasin/RIPPLS/02 Friends.flac
+11:Medasin/RIPPLS/03 Endless Endeavor.flac
+12:Medasin/RIPPLS/04 Go Crazy.flac
+13:Medasin/RIPPLS/05 Beta Testing.flac
+14:Medasin/RIPPLS/06 Everytime.flac
+15:Medasin/RIPPLS/07 Intermish.flac
+16:Medasin/RIPPLS/08 Ruminating.flac
+17:Medasin/RIPPLS/09 Get By.flac
+18:Medasin/RIPPLS/10 Sumn Lite.flac
+19:Medasin/RIPPLS/11 Retrospect.flac
+20:Medasin/RIPPLS/12 Melody X.flac
+21:Medasin/RIPPLS/13 Did Enough.flac
+22:Medasin/RIPPLS/14 Landing.flac
+23:G Jones & EPROM/Acid Disk EP/01 Hysteria.flac
+24:G Jones/Tangential Zones/01 Immortal Light.flac
+25:G Jones/Tangential Zones/02 Dark Artifact.flac
+26:Flume/Quits/02 Levitate.flac
+27:Lapalux/Amnioverse/01 Oblivion.flac
+28:Lapalux/Amnioverse/02 Voltaic Acid.flac
+29:Lapalux/Amnioverse/03 Momentine.flac
+30:Lapalux/Amnioverse/04 Earth.flac
+31:Lapalux/Amnioverse/05 Hellix.flac
+32:Lapalux/Amnioverse/06 Thin Air.flac
+33:Lapalux/Amnioverse/07 Limb To Limb.flac
+34:Lapalux/Amnioverse/08 The Lux Quadrant.flac
+35:Lapalux/Amnioverse/09 Amnioverse.flac
+36:Lapalux/Amnioverse/10 Esc.flac
+37:Floating Points/Crush/01 Falaise.flac
+38:Floating Points/Crush/02 Last Bloom.flac
+39:Floating Points/Crush/03 Anasickmodular.flac
+40:Floating Points/Crush/04 Requiem for CS70 and Strings.flac
+41:Floating Points/Crush/05 Karakul.flac
+42:Floating Points/Crush/06 LesAlpx.flac
+43:Floating Points/Crush/07 Bias.flac
+44:Floating Points/Crush/08 Environments.flac
+45:Floating Points/Crush/09 Birth.flac
+46:Floating Points/Crush/10 Sea-Watch.flac
+47:Floating Points/Crush/11 Apoptose, Pt. 1.flac
+48:Floating Points/Crush/12 Apoptose, Pt. 2.flac
+49:Flume/Hi This Is Flume (Mixtape)/01 Hi This Is Flume.flac
+50:Flume/Hi This Is Flume (Mixtape)/02 Ecdysis.flac
+51:Flume/Hi This Is Flume (Mixtape)/03 High Beams.flac
+52:Flume/Hi This Is Flume (Mixtape)/04 Jewel.flac
+53:Flume/Hi This Is Flume (Mixtape)/05 ╜Φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂.flac
+54:Flume/Hi This Is Flume (Mixtape)/06 Dreamtime.flac
+55:Flume/Hi This Is Flume (Mixtape)/07 Is It Cold in the Water_ (Flume & Eprom Remix).flac
+56:Flume/Hi This Is Flume (Mixtape)/08 How to Build a Relationship.flac
+57:Flume/Hi This Is Flume (Mixtape)/09 Wormhole.flac
+58:Flume/Hi This Is Flume (Mixtape)/10 Voices.flac
+59:Flume/Hi This Is Flume (Mixtape)/11 MUD.flac
+60:Flume/Hi This Is Flume (Mixtape)/12 Upgrade.flac
+61:Flume/Hi This Is Flume (Mixtape)/13 71M3.flac
+62:Flume/Hi This Is Flume (Mixtape)/14 Vitality.flac
+63:Flume/Hi This Is Flume (Mixtape)/15 Daze 22.00.flac
+64:Flume/Hi This Is Flume (Mixtape)/16 Amber.flac
+65:Flume/Hi This Is Flume (Mixtape)/17 Spring.flac
+66:Porter Robinson/Something Comforting/01 Something Comforting.flac
+67:Porter Robinson/Get Your Wish/01 Get Your Wish.flac
+68:Alina Baraz & Galimatias/Urban Flora/01 Show Me.flac
+69:Alina Baraz & Galimatias/Urban Flora/02 Drift.flac
+70:Alina Baraz & Galimatias/Urban Flora/03 Can I.flac
+71:Alina Baraz & Galimatias/Urban Flora/04 Fantasy.flac
+72:Alina Baraz & Galimatias/Urban Flora/05 Make You Feel.flac
+73:Alina Baraz & Galimatias/Urban Flora/06 Maybe.flac
+74:Alina Baraz & Galimatias/Urban Flora/07 Pretty.flac
+75:Alina Baraz & Galimatias/Urban Flora/08 Unfold.flac
+76:Flume/Skin/01 Helix.flac
+77:Flume/Skin/02 Never Be Like You.flac
+78:Flume/Skin/03 Lose It.flac
+79:Flume/Skin/04 Numb & Getting Colder.flac
+80:Flume/Skin/05 Say It.flac
+81:Flume/Skin/06 Wall Fuck.flac
+82:Flume/Skin/07 Pika.flac
+83:Flume/Skin/08 Smoke & Retribution.flac
+84:Flume/Skin/09 3.flac
+85:Flume/Skin/10 When Everything Was New.flac
+86:Flume/Skin/11 You Know.flac
+87:Flume/Skin/12 Take a Chance.flac
+88:Flume/Skin/13 Innocence.flac
+89:Flume/Skin/14 Like Water.flac
+90:Flume/Skin/15 Free.flac
+91:Flume/Skin/16 Tiny Cities.flac
+92:Kanye West/The Life of Pablo/10 Waves.mp3
+93:Madeon/Good Faith/01 Dream Dream Dream.flac
+94:Madeon/Good Faith/02 All My Friends.flac
+95:Madeon/Good Faith/03 Be Fine.flac
+96:Madeon/Good Faith/04 Nirvana.flac
+97:Madeon/Good Faith/05 Mania.flac
+98:Madeon/Good Faith/06 Miracle.flac
+99:Madeon/Good Faith/07 No Fear No More.flac
+100:Madeon/Good Faith/08 Hold Me Just Because.flac
+101:Madeon/Good Faith/09 Heavy With Hoping.flac
+102:Madeon/Good Faith/10 Borealis.flac
+103:Glacci/Pure/01 Aquarius Blue Flame.flac
+104:Glacci/Pure/02 Azure Dream.flac
+105:Glacci/Pure/03 Halcyon 44.flac
+106:Glacci/Pure/04 Air.flac
+107:Glacci/Pure/05 Hyperlyfe.flac
+108:Glacci/Pure/06 Synthetic Love.flac
+109:Glacci/Pure/07 Kinetic.flac
+110:Glacci/Pure/08 Skyryder.flac
+111:Glacci/Pure/09 Pure.flac
+112:Glacci/Pure/10 Pulse (feat. Eve Maret).flac
+113:Glacci/Pure/11 Cerulean Touch.flac
+114:Glacci/Pure/12 Tranquility.flac
+playlist_end

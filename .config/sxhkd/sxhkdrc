@@ -4,27 +4,29 @@
 
 # terminal emulator
 alt + Return
-	termite -c $HOME/.config/termite/$THEME
+	alacritty
 
 # program launcher
 alt + space
-	tdrop -a -w 1920 -y 1260 -x 960 -h 900 -f '-c $HOME/.config/termite/$THEME' termite
+	tdrop -a -w 720 -y 1260 -x 600 -h 480 alacritty
 
 alt + r
-	rofi -show run -terminal termite -lines 5 -eh 2 -width 10 -padding 10 -font "xos4 Terminus Regular 14" -theme $HOME/.config/rofi/themes/android_notification.rasi
+	rofi -show run -run-command '/bin/zsh -c -i \{cmd\}' -terminal urxvt -lines 5 -eh 2 -width 20 -padding 10 -font "SF Display Regular 14" -theme $HOME/.config/rofi/themes/android_notification.rasi
 	#rofi -show run -terminal termite -lines 5 -eh 2 -width 20 -padding 10 -opacity 98 -font "TSTAR PRO MEDIUM 22"
 
 #file manager
 alt + f
-	termite -c $HOME/.config/termite/$THEME -e 'ranger'
+	alacritty -e 'ranger'
 
 #volume
 XF86AudioLowerVolume
-	pactl set-sink-volume alsa_output.usb-Yamaha_Corporation_Steinberg_UR22-00.analog-stereo -5%
+	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo -5%
 XF86AudioRaiseVolume
-	pactl set-sink-volume alsa_output.usb-Yamaha_Corporation_Steinberg_UR22-00.analog-stereo +5%
+	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +5%
 XF86AudioMute
-	pactl set-sink-mute alsa_output.usb-Yamaha_Corporation_Steinberg_UR22-00.analog-stereo toggle
+        pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle
+XF86AudioMicMute
+	pactl set-source-mute alsa_input.pci-0000_00_1b.0.analog-stereo toggle
 
 #mpd control
 XF86AudioPrev
@@ -34,9 +36,19 @@ XF86AudioNext
 XF86AudioPlay
 	mpc toggle
 
-#calculator
-XF86Calculator
-	chromium www.wolframalpha.com
+#Lockscreen
+XF86Display
+	betterlockscreen -l
+
+#brightness
+XF86MonBrightnessUp
+	xbacklight -inc 5
+XF86MonBrightnessUp + shift
+	xbacklight -set 100
+XF86MonBrightnessDown
+	xbacklight -dec 5
+XF86MonBrightnessDown + shift
+	xbacklight -set .2
 
 # make sxhkd reload its configuration files:
 alt + shift + p

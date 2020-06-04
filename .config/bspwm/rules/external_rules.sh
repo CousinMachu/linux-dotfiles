@@ -40,6 +40,12 @@ if [ "$instance" = "Soffice" ] ; then
         exit 0
 fi
 
+if [ "$instance" = "java-lang-Thread" ] ; then
+        echo "state = floating"
+
+        exit 0
+fi
+
 if [ "$instance" = "zathura" ] ; then
         echo "state = tiled"
 

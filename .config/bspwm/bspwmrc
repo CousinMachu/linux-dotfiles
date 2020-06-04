@@ -9,8 +9,7 @@ if ! pgrep -x "polybar" > /dev/null; then $HOME/.config/polybar/launch.sh $THEME
 xsetroot -cursor_name left_ptr &
 
 ### Workspaces ###
-bspc monitor DP-0 -d I II III IV V VI VII VIII IX X
-bspc monitor HDMI-0 -d XI XII XIII XIV XV
+bspc monitor -d I II III IV V VI VII VIII IX X
 
 #bspc config focus_follows_pointer true
 

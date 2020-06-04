@@ -1,17 +1,19 @@
 #qutebrowser settings
-c.url.start_pages = "https://www.matte.fyi"
+c.url.start_pages = "http://start.matte.fyi"
 c.editor.command = ["vim", "-f", "{}"]
 c.downloads.position = "bottom"
 c.downloads.location.directory = "~/Downloads/"
 #c.content.user_stylesheets = ["/home/machu/.config/qutebrowser/solarized-all-sites-dark.css"]
 c.scrolling.smooth = True
-c.completion.height = "20%"
+c.completion.height = "30%"
 c.tabs.background = True
 c.tabs.last_close = "close"
 c.hints.chars = "arstdhneio"
-c.fonts.tabs = "12pt tamzenforpowerline"
-#c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}", "y": "https://www.youtube.com/results?search_query={}&search=Search", "g": "https://www.google.com/search?q={}", "r": "https://www.reddit.com/search?q={}"}
-c.url.searchengines = {"DEFAULT": "https://www.google.com/search?q={}", "y": "https://www.youtube.com/results?search_query={}&search=Search", "g": "https://www.google.com/search?q={}", "r": "https://www.reddit.com/search?q={}"}
+c.fonts.tabs = "12pt PragmataPro"
+c.fonts.default_family = "PragmataPro"
+c.fonts.default_size = "12pt"
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}", "d": "https://duckduckgo.com/?q={}", "y": "https://www.youtube.com/results?search_query={}&search=Search", "g": "https://www.google.com/search?q={}", "r": "https://www.reddit.com/search?q={}", "r/": "https://www.reddit.com/r/{}"}
+#c.url.searchengines = {"DEFAULT": "https://www.google.com/search?q={}", "y": "https://www.youtube.com/results?search_query={}&search=Search", "g": "https://www.google.com/search?q={}", "r": "https://www.reddit.com/search?q={}"}
 c.content.host_blocking.lists =  ["https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"]
 c.qt.force_software_rendering = "qt-quick"
 
@@ -79,3 +81,27 @@ config.bind('C', 'spawn chromium {url}')
 
 #Reload
 config.bind('R', 'reload -f')
+
+c.content.host_blocking.enabled = False
+
+import sys, os
+
+sys.path.append(os.path.join(sys.path[0], "jblock"))
+config.source("jblock/jblock/integrations/qutebrowser.py")
+config.set(
+    "content.host_blocking.lists",
+    [
+        #"https://easylist.to/easylist/easylist.txt",
+        #"https://easylist.to/easylist/easyprivacy.txt",
+        "https://easylist.to/easylist/fanboy-annoyance.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+        #"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+        #"https://www.malwaredomainlist.com/hostslist/hosts.txt",
+        #"https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+        "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+    ],
+)

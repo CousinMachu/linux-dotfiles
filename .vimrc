@@ -12,23 +12,26 @@ Plug 'lervag/vimtex'
 " Plug 'scrooloose/nerdtree'
 " Plug 'xolox/vim-misc'
 " Plug 'xolox/vim-notes'
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-Plug 'deoplete-plugins/deoplete-jedi'
-Plug 'Shougo/deoplete-clangx'
-Plug 'wokalski/autocomplete-flow'
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
-Plug 'Shougo/neco-syntax'
+" if has('nvim')
+"   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/deoplete.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
+" Plug 'deoplete-plugins/deoplete-jedi'
+" Plug 'Shougo/deoplete-clangx'
+" Plug 'wokalski/autocomplete-flow'
+" Plug 'prabirshrestha/async.vim'
+" Plug 'prabirshrestha/vim-lsp'
+" Plug 'Shougo/neco-syntax'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 call plug#end()
+
+" ALE
+let g:ale_set_highlights = 0
 
 " Airline/status bar
 let g:airline_powerline_fonts=1

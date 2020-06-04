@@ -1,9 +1,10 @@
 stop-screensaver = "yes"
-cache-default=16384
+# cache-default=16384
 screenshot-directory = ~/
 
 hls-bitrate=max                         # use max quality for HLS streams
-ytdl-raw-options=format="[protocol!=http_dash_segments][protocol!=rtmp]"
+#ytdl-raw-options=format="[protocol!=http_dash_segments][protocol!=rtmp]"
+ytdl-format=bestvideo+bestaudio/best
 
 
 #########
@@ -11,9 +12,9 @@ ytdl-raw-options=format="[protocol!=http_dash_segments][protocol!=rtmp]"
 #########
 
 cache=yes
-cache-default=5000000                   # size in KB
-cache-backbuffer=25000                  # size in KB
-cache-initial=0                         # start playback when your cache is filled up with x kB
+# cache-default=5000000                   # size in KB
+# cache-backbuffer=25000                  # size in KB
+# cache-initial=0                         # start playback when your cache is filled up with x kB
 cache-secs=10                           # how many seconds of audio/video to prefetch if the cache is active
 
 
@@ -61,22 +62,22 @@ volume=100                              # default volume, 100 = unchanged
 # Video #
 #########
 
-glsl-shader="~~/FSRCNNX_x2_16-0-4-1.glsl"
+#glsl-shader="~~/FSRCNNX_x2_16-0-4-1.glsl"
 
 #scale=ewa_hanning
 #scale-radius=3.2383154841662362 hanning with this radius is broken on OSX due to OpenGL driver bug
-profile=gpu-hq
-vo=gpu
-tscale=oversample
-interpolation
-video-sync=display-resample
-scale=ewa_lanczossharp
-cscale=ewa_lanczossharp
-dscale=mitchell
-scale-antiring=0
-cscale-antiring=0
-dither-depth=auto
-correct-downscaling=yes
-sigmoid-upscaling=yes
-deband=yes
-hwdec=no
+#profile=gpu-hq
+#vo=gpu
+#tscale=oversample
+#interpolation
+#video-sync=display-resample
+#scale=ewa_lanczossharp
+#cscale=ewa_lanczossharp
+#dscale=mitchell
+#scale-antiring=0
+#cscale-antiring=0
+#dither-depth=auto
+#correct-downscaling=yes
+#sigmoid-upscaling=yes
+#deband=yes
+#hwdec=no
