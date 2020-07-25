@@ -7,7 +7,7 @@ pseudo-transparency = false
 
 
 [bar/top]
-monitor = eDP1
+monitor = eDP
 width = 34%
 height = 38
 offset-y = 10px
@@ -37,7 +37,7 @@ font-1 = TerminessTTF Nerd Font:pixelsize=12:antialias=true;4
 font-2 = "Noto Sans CJK JP:size=11:antialias=true;2"
 
 ;modules-left = bspwm
-modules-center = bspwm separator battery1 battery2 separator date
+modules-center = bspwm separator battery1 separator date
 ;modules-right = date
 
 [module/separator]

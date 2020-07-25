@@ -1,17 +1,11 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
-export ZSH=/home/$(whoami)/.oh-my-zsh
-  export EDITOR='nvim'
-  #export PAGER='vimpager'
-
+export ZSH=$HOME/.oh-my-zsh
+export PATH=$HOME/.bin:$PATH
+export PATH=$HOME/go/bin:$PATH
+export EDITOR='nvim'
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-alias less=$PAGER
 alias pingg='ping -c 3 8.8.8.8'
-alias vu='pactl set-sink-volume alsa_output.usb-Yamaha_Corporation_Steinberg_UR22-00.analog-stereo +5%'
-alias vd='pactl set-sink-volume alsa_output.usb-Yamaha_Corporation_Steinberg_UR22-00.analog-stereo -5%'
 alias sizesort='du -m --max-depth 1 | sort -n'
 alias weather='curl wttr.in'
 DEFAULT_USER=$(whoami)
@@ -54,7 +48,7 @@ ZSH_THEME="jreese"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -100,18 +94,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/machu/.anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/machu/.anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/machu/.anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/machu/.anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<

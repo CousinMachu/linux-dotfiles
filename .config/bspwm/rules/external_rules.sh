@@ -22,30 +22,6 @@ if [ "$instance" = "gimp" ] ; then
         exit 0
 fi
 
-if [ "$instance" = "feh" ] ; then
-        echo "state = floating"
-
-        exit 0
-fi
-
-if [ "$instance" = "LibreOffice" ] ; then
-        echo "state = tiled"
-
-        exit 0
-fi
-
-if [ "$instance" = "Soffice" ] ; then
-        echo "state = tiled"
-
-        exit 0
-fi
-
-if [ "$instance" = "java-lang-Thread" ] ; then
-        echo "state = floating"
-
-        exit 0
-fi
-
 if [ "$instance" = "zathura" ] ; then
         echo "state = tiled"
 
@@ -54,22 +30,21 @@ fi
 
 if [ "$instance" = "Steam" ] ; then
         echo "desktop = ^10"
-        #echo "state = floating"
+        echo "state = tiled"
 
         exit 0
 fi
 
 if [ "$instance" = "discord" ] ; then
         echo "desktop = ^10"
-        #echo "state = floating"
+        echo "state = tiled"
 
         exit 0
 fi
 
-if [ "$instance" = "Spotify" ] ; then
-	sleep 5 &&
-        echo "desktop = ^10"
-        #echo "state = floating"
+if [ "$instance" = "ncmpcpp" ] ; then
+        echo "desktop = ^9"
+        echo "state = tiled"
 
         exit 0
 fi
