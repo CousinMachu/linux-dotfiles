@@ -8,10 +8,10 @@ pseudo-transparency = false
 
 [bar/top]
 monitor = eDP
-width = 34%
+width = 29%
 height = 38
 offset-y = 10px
-offset-x = 33%
+offset-x = 35.5%
 clickareas = 35
 wm-restack = bspwm
 fixed-center = false
@@ -33,7 +33,7 @@ module-margin-right = 1
 
 ;font-0 = envypn:pixelsize=13;0
 font-0 = Iosevka:size=12;2
-font-1 = TerminessTTF Nerd Font:pixelsize=12:antialias=true;4
+font-1 = TerminessTTF Nerd Font:pixelsize=12:antialias=true;2
 font-2 = "Noto Sans CJK JP:size=11:antialias=true;2"
 
 ;modules-left = bspwm
@@ -62,7 +62,7 @@ label-empty-foreground = #787878
 
 [module/date]
 type = internal/date
-date = %%{F#99}%Y-%m-%d%%{F-}  %%{F#fff}%I:%M%%{F-}
+date = %%{F#999999}%Y-%m-%d%%{F-}  %%{F#fff}%I:%M%%{F-}
 date-alt = %%{F#fff}%A, %d %B %Y  %%{F#fff}%I:%M%%{F#666}:%%{F#fba922}%S%%{F-}
 
 [module/battery1]

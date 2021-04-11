@@ -20,13 +20,13 @@ alt + f
 
 #volume
 XF86AudioLowerVolume
-	pactl set-sink-volume alsa_output.pci-0000_06_00.6.analog-stereo -5%
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
 XF86AudioRaiseVolume
-	pactl set-sink-volume alsa_output.pci-0000_06_00.6.analog-stereo +5%
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
 XF86AudioMute
-        pactl set-sink-mute alsa_output.pci-0000_06_00.6.analog-stereo toggle
+        pactl set-sink-mute @DEFAULT_SINK@ toggle
 XF86AudioMicMute
-	pactl set-source-mute alsa_output.pci-0000_06_00.6.analog-stereo.monitor toggle
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 #mpd control
 XF86AudioPrev
